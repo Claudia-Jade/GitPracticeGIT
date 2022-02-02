@@ -3,7 +3,7 @@ import getpass
 pin = '1234'
 # set pin.
 
-total_attempts = 3
+total_attempts = 10
 # total attempts variable. Can be changed
 attempt_counter = total_attempts
 # separate attempt counter influenced by total attempts
@@ -23,6 +23,7 @@ while client_input != pin:
     #     ends the loop
     print('<',  'Incorrect PIN.', 'Attempts left:', attempt_counter, 'of', total_attempts, '>')
     client_input = getpass.getpass('Type your PIN: ')
-#
+# end of conditional loop
 if client_input == pin:
-    print('<', 'Correct Pin.', '>')
+    print('<', 'Correct Pin.', 'Access granted.', '>')
+#     breaks loop in contrary condition

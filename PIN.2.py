@@ -29,3 +29,6 @@ if client_input == pin:
 #     breaks loop in contrary condition
 
 #Comment by Ruqayyah
+# we're all in the same boat
+
+

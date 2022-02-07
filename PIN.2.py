@@ -3,7 +3,7 @@ import getpass
 pin = '1234'
 # set pin.
 
-total_attempts = 10
+total_attempts = 3
 # total attempts variable. Can be changed
 attempt_counter = total_attempts
 # separate attempt counter influenced by total attempts

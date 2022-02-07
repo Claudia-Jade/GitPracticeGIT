@@ -22,5 +22,4 @@ while client_attempt != pin:
 
 if client_attempt == pin:
     print('<', 'Correct Pin.', '>')
-# if statement outside of while loop
-# This is a comment.
+# if statement outside of while loop.
